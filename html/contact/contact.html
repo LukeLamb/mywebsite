@@ -22,35 +22,37 @@
     <main>
         <h1>Contact Us</h1>
         <p>Fill out the form below to send us a message:</p>
-        <!-- modify this form HTML and place wherever you want your form -->
-        <form action="https://formspree.io/f/xqkowezv" method="POST">
-            <label>
-                Your First Name:
+        <container id="container">
+            <!-- modify this form HTML and place wherever you want your form -->
+            <form action="https://formspree.io/f/xqkowezv" method="POST">
+                <label>
+                    Your First Name:
+                    <br>
+                    <input type="firstName" name="firstName">
+                </label>
                 <br>
-                <input type="firstName" name="firstName">
-            </label>
-            <br>
-            <label>
-                Your Last Name:
+                <label>
+                    Your Last Name:
+                    <br>
+                    <input type="lastName" name="lastName">
+                </label>
                 <br>
-                <input type="lastName" name="lastName">
-            </label>
-            <br>
-            <label>
-                Your email:
+                <label>
+                    Your email:
+                    <br>
+                    <input type="email" name="email">
+                </label>
                 <br>
-                <input type="email" name="email">
-            </label>
-            <br>
-            <label>
-                Your message:
+                <label>
+                    Your message:
+                    <br>
+                    <textarea name="message"></textarea>
+                </label>
                 <br>
-                <textarea name="message"></textarea>
-            </label>
-            <br>
-            <!-- your other form fields go here -->
-            <button type="submit">Send</button>
-        </form>
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+            </form>
+        </container>
     </main>
     <footer>
         <p>Insert additional information or links here.</p>
@@ -58,4 +60,3 @@
 </body>
 
 </html>
-

@@ -1,17 +1,69 @@
+nav {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  color: #ddd;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: #333;
+}
+main{
+    padding-top: 80px;
+}
+
+#container{
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+
 body {
     background-image: url("your-image-url.jpg");
-    background-color: #fff;
+    background-color: #adc4cb;
     background-size: cover;
   }
   body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #333;
+    color: #6a6868;
   }
+  
   h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    text-align: center;
+  }
+  p {
+    margin-bottom: 20px;
+    text-align: center;
   }
   label {
     display: block;
@@ -20,7 +72,7 @@ body {
     font-weight: bold;
   }
   textarea {
-    width: 100%;
+    width: 25%;
     height: 150px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -28,9 +80,11 @@ body {
     font-size: 16px;
     line-height: 1.5;
   }
+  input[type="firstName"],
+  input[type="lastName"],
   input[type="text"],
   input[type="email"] {
-    width: 100%;
+    width: 20%;
     padding: 10px;
     font-size: 16px;
     line-height: 1.5;
