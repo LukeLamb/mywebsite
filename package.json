@@ -1,0 +1,19 @@
+{
+  "name": "ai_politico",
+  "version": "1.0.0",
+  "description": "building a web site from scratch using vs code and ChatGPT\r I would like to create a blog site that is about AI and its roles.\r name of the site: ai-politico.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukeLamb/mywebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukeLamb/mywebsite/issues"
+  },
+  "homepage": "https://github.com/LukeLamb/mywebsite#readme"
+}
