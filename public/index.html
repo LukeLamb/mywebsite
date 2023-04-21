@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>AI Politico</title>
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="icon" type="image/x-icon" href="/images/rd_logo.png">
 </head>
+
 <body>
     <header>
         <nav>
@@ -18,17 +20,43 @@
         </nav>
     </header>
     <main>
-        <h1>Hello World!</h1>
-        <p>This is my first web page.</p>
-        <p>Just a change!</p>
-        <p>Here is some additional content.</p>
-        <h2>A Second Heading</h2>
-        <p>Here is some more text.</p>
-        <img src="image.jpg" alt="Description of image">
-        <p>Here is a link to <a href="http://example.com">Example.com</a>.</p>
+        <section id="hero">
+            <div class="container">
+                <h1>Welcome to AI Politico</h1>
+                <p>This site is being built using ChatGPT</p>
+                <a href="/blog/main.html" class="button">Visit our blog</a>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <h2></h2>
+                <ul>
+                    <li>Expert analysis on AI and machine learning topics</li>
+                    <li>Insights from industry leaders</li>
+                    <li>Tips and tricks for developing AI solutions</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="subscribe">
+            <div class="container">
+                <h2>Subscribe to our Newsletter</h2>
+                <form action="https://formspree.io/f/mlekaney" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+
     </main>
+
     <footer>
-        <p>Insert additional information or links here.</p>
+        <p>Copyright © 2023 AI Politico</p>
     </footer>
 </body>
+
 </html>

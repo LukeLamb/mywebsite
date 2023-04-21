@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 nav {
   background-color: #333;
   position: fixed;
@@ -17,6 +19,7 @@ nav ul {
 
 nav li {
   margin: 0 10px;
+  display: inline-block;
 }
 
 nav a {
@@ -32,8 +35,126 @@ nav a:hover {
   color: #333;
 }
 
-
 main{
     padding-top: 80px;
 }
-  
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: antiquewhite;
+  margin: 0;
+  padding: 0 20px;
+  background-color: #6a6262;
+}
+
+a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+a.button:hover {
+  background-color: #222;
+}
+
+
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+
+#hero .container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+#hero .container li{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+#features .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+#features ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#features li {
+  margin-bottom: 10px;
+}
+
+#subscribe .container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #787474;
+}
+
+#subscribe h2 {
+  margin-bottom: 20px;
+}
+
+#subscribe form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#subscribe label {
+  flex: 0 0 100%;
+  margin-bottom: 10px;
+}
+
+#subscribe input[type="text"],
+#subscribe input[type="email"] {
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+#subscribe button[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#subscribe button[type="submit"]:hover {
+  background-color: #222;
+}
+
+/* mobile section */
+@media only screen and (max-width: 768px) {
+  #hero .container {
+    padding: 20px;
+  }
+  #features .container {
+    padding: 20px;
+  }
+  #subscribe .container {
+    padding: 20px;
+  }
+  img {
+    width: 100%;
+  }
+}
+
