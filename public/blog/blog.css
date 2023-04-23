@@ -35,27 +35,37 @@ nav a:hover {
   color: #333;
 }
 
-body {
-    /*background-image: url("your-image-url.jpg");*/
-    background-color: #eff4f6;
-    background-size: cover;
+.blog-post {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #6a6868;
+.post-info {
+  margin-right: 20px;
 }
 
-h1 {
-    font-size: 36px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    text-align: center;
+.post-content {
+  flex-grow: 1;
 }
 
-p {
-    margin-bottom: 20px;
-    text-align: center;
+.category {
+  font-weight: bold;
+  margin: 0;
+}
+
+.category a {
+  text-decoration: none;
+}
+
+.date,
+.author {
+  margin: 0;
+  font-style: italic;
+}
+
+.summary {
+  margin-top: 10px;
+  text-align: left;
+  display: block;
 }
