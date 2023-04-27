@@ -1,0 +1,6 @@
+Processed text
+mr leonard ask secretary state education science many primary school classes 40 children london borough havering steps taken eliminate overcrowding primary schools borough undersecretary state education science mr william van straubenzee january 1970 150 figures 1971 not readily available lower 560 additional places provided two new primary schools approved starting period march 1973 mr leonard welcome progress made hon gentleman aware no grounds satisfaction present position havering easily worst record overcrowded classes london borough hon gentleman impress borough reduce size overcrowded classes must take priority cutting local rates council perversely chosen year mr van straubenzee no doubt position havering accept unsatisfactory much mind local education authority
+
+Preprocessed text
+[('mr', 'leonard'), ('ask', 'secretary'), ('state', 'education'), ('science', 'many'), ('primary', 'school'), ('classes', '40'), ('children', 'london'), ('borough', 'havering'), ('steps', 'taken'), ('eliminate', 'overcrowding'), ('primary', 'schools'),...]
+
